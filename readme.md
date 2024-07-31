@@ -39,14 +39,20 @@ https://healthcareh.netlify.app
 
 ## Usage
 
-1. ![Home page](Frontend/src/assets/screen/home.png)
+1. Home Page
+![Home page](Frontend/src/assets/screen/home.png)
 
-2. ![PatientInfo page](Frontend/src/assets/screen/patientinfo.png)
+2. Patient Info Page
+![PatientInfo page](Frontend/src/assets/screen/patientinfo.png)
 
-3. ![NewAppointment page](Frontend/src/assets/screen/appoinment.png)
+3. New Appoinment Page
+![NewAppointment page](Frontend/src/assets/screen/appointment.png)
 
-4. ![Success page](Frontend/src/assets/screen/success.png)
+4. Success Page
+![Success page](Frontend/src/assets/screen/success.png)
 
-5. ![AdminPasskey page](Frontend/src/assets/screen/adminpasskey.png)
+5. Admin Passkey
+![AdminPasskey](Frontend/src/assets/screen/adminpasskey.png)
 
-6. ![Admin page](Frontend/src/assets/screen/admin.png)
+6. Admin Page
+![Admin page](Frontend/src/assets/screen/admin.png)
