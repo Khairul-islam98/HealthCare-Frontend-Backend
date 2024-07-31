@@ -40,19 +40,30 @@ https://healthcareh.netlify.app
 ## Usage
 
 1. Home Page
+
 ![Home page](Frontend/src/assets/screen/home.png)
 
 2. Patient Info Page
+
 ![PatientInfo page](Frontend/src/assets/screen/patientinfo.png)
 
 3. New Appoinment Page
+
 ![NewAppointment page](Frontend/src/assets/screen/appointment.png)
 
 4. Success Page
+
 ![Success page](Frontend/src/assets/screen/success.png)
 
 5. Admin Passkey
+
 ![AdminPasskey](Frontend/src/assets/screen/adminpasskey.png)
 
 6. Admin Page
+
+
 ![Admin page](Frontend/src/assets/screen/admin.png)
+
+7. Twilio Sms
+
+![Twilio Sms](Frontend/src/assets/screen/sms.png)
