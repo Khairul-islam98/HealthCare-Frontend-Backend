@@ -35,7 +35,11 @@ https://healthcareh.netlify.app
 - Shadcn
 ---
 
+# AdminPasskey 
+```
+112233
 
+```
 
 ## Usage
 
