@@ -11,17 +11,12 @@ const client = twilio(accountSid, authToken);
 
 const sendSms = catchAsync(async (req, res) => {
   const { to, body } = req.body;
-
-  console.log('Request body:', req.body); // Log the entire request body
-
   try {
     const message = await client.messages.create({
       body: body,
       to: to,
       from: config.twilio_phone_number,
     });
-
-    console.log('Twilio response:', message);
 
     const newMessage = new Message({ to, body });
     await newMessage.save();
