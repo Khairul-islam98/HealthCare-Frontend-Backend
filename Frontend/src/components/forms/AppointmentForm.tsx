@@ -75,8 +75,7 @@ const AppointmentForm = ({
           status: status,
         };
         const res = await createAppointment(appointmentInfo).unwrap();
-        console.log("Create appointment response:", res);
-
+  
         if (res) {
           form.reset();
           navigate(
@@ -95,11 +94,11 @@ const AppointmentForm = ({
 
           type,
         };
-        console.log("appointment", appointment);
+  
         const updatedAppointment = await updateAppointment(
           appointmentToUpdate
         ).unwrap();
-        console.log("Update appointment response:", updatedAppointment);
+        
 
         const smsMessage = `Hi, it's HealtCare. ${
           type === "schedule"
@@ -108,10 +107,9 @@ const AppointmentForm = ({
               ).dateTime} with Dr. ${appointment.primaryPhysician}`
             : `We regret to inform you that your appointment has been cancelled for the following reason: ${appointment.cancellationReason}`
         }`;
-        console.log("appointment.phone", appointment.patientId.phone);
         const smsPayload = {
-          to: appointment?.patientId.phone,  // Ensure this is the recipient's phone number
-          body: smsMessage  // The message content
+          to: appointment?.patientId.phone,  
+          body: smsMessage 
         };
         
         const res = await createMessage(smsPayload).unwrap();

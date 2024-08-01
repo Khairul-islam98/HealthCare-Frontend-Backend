@@ -14,7 +14,6 @@ const Success = () => {
     const {data} = useGetSingleAppointmentQuery(appointmentId)
 
     const doctor = Doctors.find((doc)=> doc.name === data?.data?.primaryPhysician);
-    console.log(doctor);
   return (
     <div className="flex  px-[5%]">
       <div className="success-img">

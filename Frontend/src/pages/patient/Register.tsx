@@ -5,7 +5,6 @@ import RegisterForm from "@/components/forms/RegisterForm";
 
 const Register = () => {
     const {id: user} = useParams();
-    console.log(user);
   return (
     <div className="flex">
       <section className="remove-scrollbar container">

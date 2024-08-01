@@ -48,7 +48,6 @@ const PatientForm = () => {
         phone,
       }
       const res = await createUser(userData).unwrap()
-      console.log(res.data?._id);
       if(res) {
         navigate(`/patient/${res.data?._id}/register`)
       }
