@@ -105,7 +105,7 @@ const AppointmentForm = ({
             ? `Your appointment has been scheduled for ${formatDateTime(
                 values?.schedule
               ).dateTime} with Dr. ${appointment.primaryPhysician}`
-            : `We regret to inform you that your appointment has been cancelled for the following reason: ${appointment.cancellationReason}`
+            : `We regret to inform you that your appointment has been cancelled for the following reason: ${values?.cancellationReason}`
         }`;
         const smsPayload = {
           to: appointment?.patientId.phone,  
