@@ -91,9 +91,9 @@ export const Doctors = [
 ];
 
 export const StatusIcon = {
-  scheduled: "/src/assets/icons/check.svg",
-  pending: "/src/assets/icons/pending.svg",
-  cancelled: "/src/assets/icons/cancelled.svg",
+  scheduled: "../src/assets/icons/check.svg",
+  pending: "../src/assets/icons/pending.svg",
+  cancelled: "../src/assets/icons/cancelled.svg",
 };
 
 // patient.interface.ts
